@@ -175,7 +175,7 @@ add the appengine-SDK location to your `$PATH`.
 You may also need to manually trigger an index build for datastore
 
 ```
-gcloud datastore create-indexes index.yaml
+gcloud datastore indexes create index.yaml
 ```
 (try this if you're seeing 500 errors)
 
